@@ -48,6 +48,8 @@ public class ExecutorServicee {
 
 executorServiceee.execute(() -> {
 
+            System.out.println( Thread.currentThread().getName());
+
     summ[0] += index;
 
 
